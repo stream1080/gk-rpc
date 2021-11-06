@@ -1,4 +1,4 @@
-package com.smgeek.gkrpc;
+package com.stream.gkrpc;
 
 import lombok.Data;
 
