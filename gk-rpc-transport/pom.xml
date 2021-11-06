@@ -27,9 +27,9 @@
             <artifactId>jetty-servlet</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.stream</groupId>
+            <groupId>org.stream</groupId>
             <artifactId>gk-rpc-proto</artifactId>
-            <version>${project.version}</version>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
 
