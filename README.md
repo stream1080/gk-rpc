@@ -1,16 +1,6 @@
 # gk-rpc
 自己动手实现一个RPC框架
 
-## 项目模块
-* 1 client 客户端
-* 2 server 服务
-* 3 proto 协议
-* 4 codec 编解码
-* 5 transport 数据传输
-* 6 common 公共模块
-* 7 example 使用样例
-
-
 ## 1.Proto 模块
 - Proto模块用于规定数据传输协议和规约
 
@@ -42,5 +32,7 @@
 - RpcClient类的getProxy()方法为动态代理，需要重点关注RemoteInvoker类。
 - invoke()方法中对代理方法的参数进行存储封装到Request对象并且最终序列化传递到Server。
 
+## 7 example 样例
+- 一个加减法的使用样例
 
 
